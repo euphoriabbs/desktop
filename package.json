@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/euphoriabbs/terminal/issues"
   },
-  "homepage": "https://github.com/euphoriabbs/terminal#readme"
+  "homepage": "https://github.com/euphoriabbs/terminal#readme",
+  "dependencies": {
+    "electron": "^1.7.9",
+    "shelljs": "^0.7.8",
+    "yargs": "^9.0.1"
+  }
 }

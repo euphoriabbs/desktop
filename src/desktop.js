@@ -8,7 +8,7 @@ let win
 
 function createWindow () {
     // Create the browser window.
-    win = new BrowserWindow({transparent: true, show: false, frame: false, width: 1040, height: 640, maximizable: false, center: true, resizable: false})
+    win = new BrowserWindow({transparent: false, show: false, frame: true, width: 1045, height: 645, maximizable: true, center: true, resizable: false})
 
     // and load the index.html of the app.
     win.loadURL('http://euphoriabbs.com')
@@ -16,9 +16,8 @@ function createWindow () {
     win.webContents.on('did-finish-load', function() {
         setTimeout(function(){
             win.show();
+        });
     });
-});
-
 
   // Open the DevTools.
   //win.webContents.openDevTools()
