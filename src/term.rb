@@ -2,6 +2,12 @@
 
 require 'rubygems'
 require 'eventmachine'
+require "socksify"
+
+trap("INT") {exit}
+
+TCPSocket::socks_server = "127.0.0.1"
+TCPSocket::socks_port = 9050
 
 class BBSTerm < EM::Connection
 

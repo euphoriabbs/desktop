@@ -8,7 +8,7 @@ let win
 
 function createWindow () {
     // Create the browser window.
-    win = new BrowserWindow({transparent: false, show: false, frame: true, width: 1045, height: 645, maximizable: true, center: true, resizable: false})
+    win = new BrowserWindow({transparent: false, show: false, frame: true, width: 1045, height: 650, maximizable: true, center: true, resizable: false})
 
     // and load the index.html of the app.
     win.loadURL('http://euphoriabbs.com')
